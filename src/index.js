@@ -50,7 +50,7 @@ function d3app_svg() {
         .attr("x2", 500)
         .attr("y1", 50)
         .attr("y2", 50)
-        .attr("stroke", "red");
+        .attr("stroke", "red")
         .attr("stroke-width", 5);
 
     var rect = svg.append("rect")
